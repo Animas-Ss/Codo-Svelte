@@ -1,6 +1,6 @@
 <script>
  import { Link } from 'svelte-routing';
- import codo from '../../public/codo.png'
+ import codo from '../assets/codo.png';
 </script>
 
 <nav>

@@ -4,10 +4,11 @@
   import Navegation from "./components/Navegation.svelte";
   import Avences from './pages/Avences.svelte';
   import Aprende from './pages/Aprende.svelte';
+  import codo from './assets/codo.png';
 </script>
 
 <main>
-  <img src="codo.png" alt="logo-codo">
+  <img src={codo} alt="logo-codo"/>
   <Router>
     <Navegation />
     <Route path="/" component={Home} />

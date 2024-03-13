@@ -29,7 +29,7 @@
 <style>
     :global(body){
         height: 100%;
-        background: #313131;
+        background: #444444;
         color: #ffffff;
         padding: 0;
     margin: 0;
