@@ -10,10 +10,10 @@
             <Link to='/Codo-Svelte/'>Home</Link>
         </li>
         <li>
-            <Link to='/avances'>Avances</Link>
+            <Link to='/Codo-Svelte/avances'>Avances</Link>
         </li>
         <li>
-            <Link to='/aprende'>Aprende</Link>
+            <Link to='/Codo-Svelte/aprende'>Aprende</Link>
         </li>
     </ul>
 </nav>

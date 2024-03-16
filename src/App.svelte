@@ -1,10 +1,10 @@
-<script lang="ts">
+<script>
   import { Router, Route} from 'svelte-routing'
   import Home from "./pages/Home.svelte";
   import Navegation from "./components/Navegation.svelte";
   import Avences from './pages/Avences.svelte';
   import Aprende from './pages/Aprende.svelte';
-  import codo from './assets/codo.png';
+  import codo  from './assets/codo.png';
 </script>
 
 <main>
@@ -12,8 +12,8 @@
   <Router>
     <Navegation />
     <Route path="/Codo-Svelte/" component={Home} />
-    <Route path="/avances" component={Avences}/>
-    <Route path="/aprende" component={Aprende}/>
+    <Route path="/Codo-Svelte/avances" component={Avences}/>
+    <Route path="/Codo-Svelte/aprende" component={Aprende}/>
   </Router>
 </main>
 
