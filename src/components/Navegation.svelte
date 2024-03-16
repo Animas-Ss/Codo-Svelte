@@ -7,7 +7,7 @@
     <img src={codo} alt="logo de codo a codo" class="logo-client">
     <ul>
         <li>
-            <Link to='/'>Home</Link>
+            <Link to='/Codo-Svelte/'>Home</Link>
         </li>
         <li>
             <Link to='/avances'>Avances</Link>

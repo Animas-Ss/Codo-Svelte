@@ -11,7 +11,7 @@
   <img src={codo} alt="logo-codo"/>
   <Router>
     <Navegation />
-    <Route path="/" component={Home} />
+    <Route path="/Codo-Svelte/" component={Home} />
     <Route path="/avances" component={Avences}/>
     <Route path="/aprende" component={Aprende}/>
   </Router>
